@@ -7,4 +7,7 @@ node{
     stage("show"){
         bat "dir"
     }
+	    stage("print"){
+        bat "echo All done"
+    }
 }
