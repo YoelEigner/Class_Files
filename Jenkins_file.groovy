@@ -8,6 +8,6 @@ node{
         bat "dir"
     }
 	    stage("print"){
-        bat "echo All done"
+        bat "echo Good to go"
     }
 }
