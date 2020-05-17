@@ -1,0 +1,8 @@
+node{
+    stage("clone"){
+        git "https://github.com/YoelEigner/Class_Files.git"
+    }
+    stage("show"){
+        bat "dir"
+    }
+}
